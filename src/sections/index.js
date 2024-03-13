@@ -6,6 +6,8 @@ import CustomerReviews from './CustomerReviews'
 import Footer from './Footer'
 import SpecialOffers from './SpecialOffers'
 import Subscribe from './Subscribe'
+import AboutUs from './AboutUs'
+import AllProducts from './AllProducts'
 
 export {
     Hero,
@@ -15,5 +17,7 @@ export {
     CustomerReviews,
     Footer,
     SpecialOffers,
-    Subscribe
+    Subscribe,
+    AboutUs,
+    AllProducts
 }

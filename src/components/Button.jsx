@@ -4,7 +4,7 @@ const Button = (props) => {
   return (
     <button className={`flex justify-center items-center gap-2 px-7
               py-4 border font-montserrat text-lg
-              leading-none
+              leading-none transition duration-80 ease-in-out hover:opacity-80
               ${
                 props.backgroundColor
                 ? `${props.backgroundColor} ${props.textColor} ${props.borderColor}`
